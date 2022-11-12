@@ -1,9 +1,10 @@
-RUN_INDENTED = False
+RUN_INDENTED = True
 
-message = "running unindented"
 
 if RUN_INDENTED:
     message = "running indented"
+else:
+    message = "running unindented"
 
 print(message)
 
